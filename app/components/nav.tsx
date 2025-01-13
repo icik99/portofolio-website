@@ -8,10 +8,13 @@ const navItems = {
     name: 'Contact',
   },
   '/about': {
-    name: 'About Me',
+    name: 'About',
   },
   '/projects': {
     name: 'Projects',
+  },
+  'https://drive.google.com/file/d/1e0NxynSCmquOAOiExsPrSjQiO7g4_vwI/view?usp=sharing': {
+    name: 'Resume',
   },
 }
 
