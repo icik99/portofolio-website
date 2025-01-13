@@ -1,42 +1,71 @@
-# Portfolio Blog Starter
+# Portfolio Projects  
 
-This is a porfolio site template complete with a blog. Includes:
+Welcome to my portfolio repository! This repository showcases a selection of projects that I have developed, highlighting my skills and expertise as a **System Analyst** and **Frontend Developer**. Each project demonstrates my commitment to delivering high-quality web solutions tailored to specific use cases.  
 
-- MDX and Markdown support
-- Optimized for SEO (sitemap, robots, JSON-LD schema)
-- RSS Feed
-- Dynamic OG images
-- Syntax highlighting
-- Tailwind v4
-- Vercel Speed Insights / Web Analytics
-- Geist font
+---
 
-## Demo
+## Projects  
 
-https://portfolio-blog-starter.vercel.app
+### 1. **Duta Anak Indonesia**  
+**Description:**  
+A platform for selecting child ambassadors representing each province across Indonesia.  
 
-## How to Use
+- **Role:** Frontend Developer  
+- **Technologies:** TypeScript, Next.js, TailwindCSS  
+- **Tools:** GitHub, Jira (Agile Scrum), Postman, Docker  
+- **Features:** Public-facing portal and CMS for admin management  
 
-You can choose from one of the following two methods to use this repository:
+[Visit the Website](https://dutaanakindonesia.com/)  
 
-### One-Click Deploy
+---
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+### 2. **Faculty Net**  
+**Description:**  
+A Wi-Fi network monitoring platform for the Faculty of Economics and Business, Business Communication, and the Manterawu Building.  
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
+- **Role:** System Analyst and Programmer  
+- **Technologies:** Next.js, JavaScript, TailwindCSS, ExpressJS, PRTG API  
+- **Tools:** GitHub  
+- **Features:** Real-time network monitoring, analytics dashboard  
 
-### Clone and Deploy
+[Visit the Website](https://facultynet-monitoring.vercel.app/)  
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+---
 
-```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
-```
+### 3. **Servqual Analysis**  
+**Description:**  
+A platform for measuring customer satisfaction of Indihome PT. Telkom Akses Gorontalo through detailed feedback forms.  
 
-Then, run Next.js in development mode:
+- **Role:** System Analyst and Frontend Developer  
+- **Technologies:** Next.js, JavaScript, Ant Design (ANTD)  
+- **Tools:** Whimsical, GitHub, Postman, Vercel  
+- **Features:** Customer satisfaction surveys, aggregated reporting  
 
-```bash
-pnpm dev
-```
+[Visit the Website](https://servqual-fe.vercel.app/)  
 
-Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
+---
+
+## Highlights  
+
+- **Collaboration:**  
+  I actively collaborated with teams using tools like **GitHub**, **Jira**, and **Postman**, following **Agile Scrum** methodology for efficient project management.  
+
+- **Technical Skills:**  
+  Leveraged modern frameworks and tools, including **Next.js**, **TypeScript**, **TailwindCSS**, **Ant Design**, and **ExpressJS**, to deliver high-performance and user-friendly web solutions.  
+
+- **Deployment:**  
+  Successfully deployed projects on **Vercel** and implemented **Docker** for streamlined deployment processes.  
+
+---
+
+## Contact  
+
+Feel free to reach out if you have any questions or would like to discuss potential collaborations!  
+
+- **Email:** riziqfr111@gmail.com  
+- **LinkedIn:** [Muh Rizieq Fazlulrahman Djafar](https://www.linkedin.com/in/rizieqfr/)  
+- **Portfolio:** [Portofolio Website](https://dummy.com)  
+
+---
+
+Thank you for exploring my projects!  
