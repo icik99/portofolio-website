@@ -14,7 +14,7 @@ export default function Page() {
         </div> */}
         <div className="flex flex-col md:flex-row items-center mb-8 space-y-4 md:space-y-0 md:space-x-8">
           <p className="text-left md:text-left">
-            {`I am a dynamic graduate of Telkom University Purwokerto, specializing in System Analysis and Front-end web development with expertise in ReactJS, NextJS, and TailwindCSS. My technical skills are complemented by strong project management, negotiation abilities, and system analysis expertise, ensuring seamless project execution and effective collaboration. Passionate about innovative web solutions, I am eager to contribute my talents to a forward-thinking team.`}
+          {`I am a dynamic graduate of Telkom University Purwokerto, specializing in System Analysis and Front-end web development with expertise in ReactJS, NextJS, and TailwindCSS. I also have strong backend skills, working with ExpressJS, ORM Sequelize, and MySQL to build efficient and scalable web applications. My technical skills are complemented by strong project management, negotiation abilities, and system analysis expertise, ensuring seamless project execution and effective collaboration. Passionate about innovative web solutions, I am eager to contribute my talents to a forward-thinking team.`}
           </p>
         </div>
   
@@ -40,7 +40,7 @@ export default function Page() {
         </h2>
         <div className="mb-6 space-y-4">
           <div>
-            <h3 className="text-base font-medium">Institut Teknologi Telkom Purwokerto</h3>
+            <h3 className="text-base font-medium">Telkom University Purwokerto</h3>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 italic">
               Bachelor of Informatics Student, 3.93/4.00
             </p>

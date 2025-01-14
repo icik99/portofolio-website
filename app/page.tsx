@@ -7,8 +7,9 @@ export default function Page() {
         Muh Rizieq Fazlulrahman Djafar - Portfolio
       </h1>
       <p className="mb-4">
-        {`I am a dynamic graduate of Telkom University Purwokerto, specializing in System Analysis and Front-end web development with expertise in ReactJS, NextJS, and TailwindCSS. My technical skills are complemented by strong project management, negotiation abilities, and system analysis expertise, ensuring seamless project execution and effective collaboration. Passionate about innovative web solutions, I am eager to contribute my talents to a forward-thinking team.`}
+        {`Hi there! I’m a Web Developer and System Analyst passionate about crafting innovative and user-friendly web solutions. With expertise in ReactJS, NextJS, and TailwindCSS, I specialize in building seamless interfaces while combining technical precision with strong analytical skills. I also have strong backend capabilities, working with ExpressJS, Sequelize ORM, and MySQL to create robust and efficient server-side solutions. Let's bring ideas to life together!`}
       </p>
+
       <div className="my-8">
       <p className='font-semibold mb-2 text-2xl'>Recent Completed Projects:</p>
       <BlogPosts limit={3}/>

@@ -13,6 +13,9 @@ const navItems = {
   '/projects': {
     name: 'Projects',
   },
+  '/certificate': {
+    name: 'Certificate',
+  },
   'https://drive.google.com/file/d/1e0NxynSCmquOAOiExsPrSjQiO7g4_vwI/view?usp=sharing': {
     name: 'Resume',
   },
