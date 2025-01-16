@@ -20,10 +20,11 @@ export async function POST(request: Request) {
     });
 
     await transporter.sendMail({
-      from: `"${name}" <${email}>`,
-      to: "riziqfr111@gmail.com",
-      subject: "New Message from Your Website",
-      text: message,
+        from: `"${name}" <riziqfr111@gmail.com>`, // Nama pengirim diikuti email lo
+        replyTo: email, // Email user untuk balasan
+        to: "riziqfr111@gmail.com", // Email tujuan
+        subject: `Pesan dari ${name}`,
+        text: message,
     });
 
     return NextResponse.json({ message: "Email sent successfully!" }, { status: 200 });
