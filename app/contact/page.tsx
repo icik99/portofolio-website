@@ -7,14 +7,11 @@ export default function Page() {
     email: "",
     message: "",
   });
-
-  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">(
-    "idle"
-  );
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -22,11 +19,21 @@ export default function Page() {
     setStatus("loading");
 
     try {
-      // Simulate sending the form (replace with actual API call)
-      await new Promise((resolve) => setTimeout(resolve, 2000));
-      setStatus("success");
-      setFormData({ name: "", email: "", message: "" });
+      const response = await fetch("/api/sendMail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setStatus("success");
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        setStatus("error");
+      }
     } catch (error) {
+      console.log(error)
+      console.error("Error submitting form:", error);
       setStatus("error");
     }
   };
