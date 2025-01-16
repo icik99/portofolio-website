@@ -104,11 +104,25 @@ export default function Page() {
                 </button>
 
                 {status === "success" && (
-                <p className="mt-4 text-sm text-green-600">Your message has been sent successfully!</p>
+                  <p className="mt-4 text-sm text-green-600">
+                    Your message has been sent successfully! I will reach out to you as soon as possible.
+                  </p>
                 )}
                 {status === "error" && (
-                <p className="mt-4 text-sm text-red-600">Something went wrong. Please try again later.</p>
+                  <p className="mt-4 text-sm text-red-600">
+                    Sorry, something went wrong. Please try again later or contact me via WhatsApp at{" "}
+                    <a
+                      href="https://wa.me/081946635642"
+                      className="text-blue-600 underline"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      this link
+                    </a>
+                    .
+                  </p>
                 )}
+
             </div>
         </form>
     </section>
