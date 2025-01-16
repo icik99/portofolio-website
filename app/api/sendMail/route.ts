@@ -20,9 +20,9 @@ export async function POST(request: Request) {
     });
 
     await transporter.sendMail({
-        from: `"${name}" <riziqfr111@gmail.com>`, // Nama pengirim diikuti email lo
-        replyTo: email, // Email user untuk balasan
-        to: "riziqfr111@gmail.com", // Email tujuan
+        from: `"${name}" <${process.env.GMAIL_USER}>`,
+        replyTo: email,
+        to: process.env.GMAIL_USER,
         subject: `Pesan dari ${name}`,
         text: message,
     });

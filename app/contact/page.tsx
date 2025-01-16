@@ -94,7 +94,7 @@ export default function Page() {
                 required
             ></textarea>
             </div>
-            <div className="flex justify-end">
+            <div className="flex justify-end gap-4">
                 <button
                 type="submit"
                 disabled={status === "loading"}
