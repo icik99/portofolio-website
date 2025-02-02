@@ -16,7 +16,7 @@ const navItems = {
   '/certificate': {
     name: 'Certificate',
   },
-  'https://drive.google.com/file/d/1e0NxynSCmquOAOiExsPrSjQiO7g4_vwI/view?usp=sharing': {
+  'https://drive.google.com/file/d/108DYq3oc5cTOGpQKGI1f-OTmxMmcQPsJ/view?usp=sharing': {
     name: 'Resume',
   },
 }
